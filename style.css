@@ -1,0 +1,84 @@
+/* Général */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #00b894; /* Vert techno */
+}
+
+/* Header */
+header {
+    background: #2d3436;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header .header-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header .header-content p {
+    font-size: 1.2em;
+    color: #dfe6e9;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#about {
+    background: #34495e;
+}
+
+#contact {
+    background: #00b894;
+    color: #2d3436;
+}
+
+#testimonials {
+    background: #1e1e1e;
+}
+
+/* Boutons */
+.cta-button {
+    background-color: #00b894;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #00cba7;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3436;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #00b894;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
