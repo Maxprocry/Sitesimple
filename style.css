@@ -1,84 +1,74 @@
-/* Général */
+/* Styles généraux */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
     margin: 0;
     padding: 0;
-    background-color: #1e1e1e;
-    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-h1, h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #00b894; /* Vert techno */
-}
-
-/* Header */
-header {
-    background: #2d3436;
-    padding: 100px 0;
+h1, h2, p {
     text-align: center;
 }
 
-header .header-content h1 {
-    font-size: 3em;
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* En-tête */
+header h1 {
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-header .header-content p {
-    font-size: 1.2em;
-    color: #dfe6e9;
+header p {
+    font-size: 1.1rem;
 }
 
 /* Sections */
 section {
-    padding: 40px 20px;
-    margin: 40px auto;
-    max-width: 1000px;
-    text-align: center;
+    margin-top: 30px;
 }
 
-#about {
-    background: #34495e;
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
-#contact {
-    background: #00b894;
-    color: #2d3436;
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
-#testimonials {
-    background: #1e1e1e;
-}
-
-/* Boutons */
+/* Bouton d'appel à l'action */
 .cta-button {
-    background-color: #00b894;
-    padding: 10px 20px;
-    color: white;
-    font-size: 1.1em;
-    border: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 1.2rem;
     transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #00cba7;
+    background-color: #2980b9;
 }
 
 /* Footer */
 footer {
-    background-color: #2d3436;
-    padding: 20px 0;
+    margin-top: 40px;
     text-align: center;
-    font-size: 0.9em;
-}
-
-footer a {
-    color: #00b894;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+    font-size: 1rem;
+    color: #aaa;
 }
